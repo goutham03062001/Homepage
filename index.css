@@ -1,0 +1,197 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #C3CCCC;
+	
+}
+#index_sidenav{
+		list-style-type: none;
+		padding: 3px;
+		margin-left: -210px
+	}
+	#index_sidenav li{
+		display: block;
+		background-color: #f2f2f2;
+		width: 200px;
+		padding:5px;
+
+
+	}
+	#index_sidenav li:hover{
+		background-color: #C3DDDD;
+
+	}
+	#index_sidenav li a{
+		text-decoration: none;
+	}
+	#icons .fa-instagram{
+	 font-size: 30px;
+	 width:50px;
+	 height:50px;
+	 border-radius: 25px;
+	 background-color:#E1306C;
+
+	 color:white;
+	 padding:10px;
+	}
+#icons .fa-twitter{
+	font-size: 30px;
+	width:50px;
+	height:50px;
+	border-radius: 25px;
+	padding:10px;
+	background-color: #55ACEE;
+	color: white;
+}
+
+#icons .fa-facebook{
+	font-size: 30px;
+	width:50px;
+	height:50px;
+	border-radius: 25px;
+	padding:10px;
+	background-color: blue;
+	color: white;
+}
+
+#icons .fa-linkedin{
+    font-size: 30px;
+	width:50px;
+	height:50px;
+	border-radius: 25px;
+	padding:10px;
+	background-color: #55ACEE;
+	color: white;
+}
+
+#icons .fa-instagram:hover{
+	animation-name: icons;
+	animation-iteration-count:1;
+	animation-duration: 3s;
+	animation-direction:alternate;
+}
+@keyframes icons{
+	from{
+		transform: scale(0.6);
+	}
+	to{
+		transform: scale(0.9);
+	}
+}
+
+
+#icons .fa-facebook:hover{
+	animation-name: icons;
+	animation-iteration-count:1;
+	animation-duration: 3s;
+	animation-direction:alternate;
+}
+@keyframes icons{
+	from{
+		transform: scale(0.6);
+	}
+	to{
+		transform: scale(0.9);
+	}
+}
+#icons .fa-twitter:hover{
+	animation-name: icons;
+	animation-iteration-count:1;
+	animation-duration: 3s;
+	animation-direction:alternate;
+}
+@keyframes icons{
+	from{
+		transform: scale(0.6);
+
+	}
+	to{
+		transform: scale(0.9);
+	}
+}
+#icons .fa-linkedin:hover{
+	animation-name: icons;
+	animation-iteration-count:1;
+	animation-duration: 3s;
+	animation-direction:alternate;
+}
+@keyframes icons{
+	from{
+		transform: scale(0.6);
+	}
+	to{
+		transform: scale(0.9);
+	}
+}
+
+	.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 0;
+  background-color: #C3CCCC;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #2e7078;
+  font-family: Bell MT;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+ background-color: #C3CCCC;
+  text-decoration: none;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+@media screen and (max-width: 700px) {
+  .sidepannel {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidepannel a {float: left;
+  	font-size: 22px;}
+  div.content {margin-left: 0;}
+}
+@media screen and (max-width: 411px){
+	.sidepanel a{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 411px){
+	.text{
+		font-size: 16px;
+		}
+	.
+}
